@@ -15,7 +15,7 @@ body {
 
 a {
     color: #3366ff;
-    text-decoration-line: underline;
+    text-decoration-line:initial;
 }
 
 .outer-container {

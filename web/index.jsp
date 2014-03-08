@@ -22,7 +22,7 @@
             <div class="inner-container">
                 <%
                     session.invalidate();
-                    if (!Constants.MAINTENANCE_MODE) {
+                    if (!(boolean)Constants.MAINTENANCE_MODE) {
                 %>
                 <div class="container big-left-container">
 
@@ -40,5 +40,7 @@
             </div>
 
         </div>
+            
+            <script src="js.js"></script>
     </body>
 </html>
