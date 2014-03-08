@@ -3,4 +3,75 @@ nav {
     height: 90px;
     border-top: 3px solid #ECECEC;
     border-bottom: 3px solid #ECECEC;
+    
+}
+
+.nav-inner {
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 25px;
+    width: 500px;
+    text-align: right;
+    float: right;
+}
+
+.search input[type="text"] {
+    border: 2px solid #EAEAEA;
+    margin: 0;
+    height: 25px;
+    width: 400px;
+    padding: 0;
+}
+
+.search input[type="submit"] {
+    border: 2px solid #EAEAEA;
+    border-left: none;
+    height: 28px;
+    margin-left: -3px;
+    margin-top: -1px;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+nav ul li {
+    padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+    
+}
+nav ul li:first-child {
+    padding-left: 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 24px;
+    height: 90px;
+    line-height: 90px;
+    color: #333333;
+    text-transform: uppercase;
 }

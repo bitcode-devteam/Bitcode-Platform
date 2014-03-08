@@ -4,7 +4,10 @@
     Author     : Arix
 --%>
 
+
+<%@page import="io.bitcode.Constants"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,18 +20,25 @@
         <%@ include file="components/menu.jsp" %>
         <div class="outer-container">
             <div class="inner-container">
+                <%
+                    session.invalidate();
+                    if (!Constants.MAINTENANCE_MODE) {
+                %>
                 <div class="container big-left-container">
-                    
+
                 </div>
-                
+
                 <div class="container small-right-container">
-                    
+
                 </div>
                 <div class="container small-right-container">
-                    
+
                 </div>
+                <%
+                    }
+                %>
             </div>
-            
+
         </div>
     </body>
 </html>

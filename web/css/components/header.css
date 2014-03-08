@@ -4,10 +4,30 @@ header {
     height: 90px;
 }
 
+.inner-header {
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header .logo {
     float: left;
     width: 300px;
     height: 90px;
+}
+
+.hider {
+    float: right;
+    margin-top: 18px;
+    
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.hider img {
+    width: 50px;
+    height: 50px;
 }
 
 header .logo img {
