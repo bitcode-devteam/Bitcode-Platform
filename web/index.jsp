@@ -9,9 +9,26 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" href="css/default.css" />
+        <title>Bitcode Landing Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <%@ include file="components/header.jsp" %>
+        <%@ include file="components/menu.jsp" %>
+        <div class="outer-container">
+            <div class="inner-container">
+                <div class="container big-left-container">
+                    
+                </div>
+                
+                <div class="container small-right-container">
+                    
+                </div>
+                <div class="container small-right-container">
+                    
+                </div>
+            </div>
+            
+        </div>
     </body>
 </html>

@@ -1,0 +1,16 @@
+header {
+    
+    background-color: white;
+    height: 90px;
+}
+
+header .logo {
+    float: left;
+    width: 300px;
+    height: 90px;
+}
+
+header .logo img {
+    height: 90px;
+    width: 300px;
+}
